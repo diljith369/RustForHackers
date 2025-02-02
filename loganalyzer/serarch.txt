@@ -1,0 +1,4 @@
+this line has nothing to search
+this has a failed login attempt
+this line also has failed login attempt
+this line is a normal log
