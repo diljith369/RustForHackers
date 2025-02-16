@@ -1,0 +1,10 @@
+D:\2025\aalphaazeq\RustDev\rustforhackers\webpasswordcracker\target\debug\deps\libidna-26fae0cc71ec1881.rmeta: C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\lib.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\deprecated.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\punycode.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\uts46.rs
+
+D:\2025\aalphaazeq\RustDev\rustforhackers\webpasswordcracker\target\debug\deps\libidna-26fae0cc71ec1881.rlib: C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\lib.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\deprecated.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\punycode.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\uts46.rs
+
+D:\2025\aalphaazeq\RustDev\rustforhackers\webpasswordcracker\target\debug\deps\idna-26fae0cc71ec1881.d: C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\lib.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\deprecated.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\punycode.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\uts46.rs
+
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\lib.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\deprecated.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\punycode.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-1.0.3\src\uts46.rs:
