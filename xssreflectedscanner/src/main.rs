@@ -85,8 +85,27 @@ fn xss_reflected_scanner(
         Ok(None)
     }
 
+    
+
     //println!("{}", xss_reflected_html_response);
 }
+
+fn xss_stored_scanner(client: &Client, base_url: &str) -> Result<(), Box<dyn std::error::Error>> {
+    let xss_stored_url = format!("{}{}", base_url, "vulnerabilities/xss_s/");
+    let mut xss_params: HashMap<&str, &str> = HashMap::new();
+    xss_params.insert("txtName", "test");
+    xss_params.insert("mtxMessage", "<script>alert('XSS');</script>");
+    xss_params.insert("btnSign", "Sign+Guestbook");
+    let xss_stored_response = client.post(&xss_stored_url).form(&xss_params).send()?;            
+    let xss_stored_html_response = xss_stored_response.text().unwrap();
+    if xss_stored_html_response.contains(xss_params["mtxMessage"]) {
+        println!("{}", format!("found in name parameter at this URL {}", xss_stored_url));
+    } else {
+        println!("{}", format!("not found in name parameter at this URL {}", xss_stored_url));
+    }
+    Ok(())
+}
+
 
 fn get_usertoken(htmlresponse: &str) -> Result<String, Box<dyn std::error::Error>> {
     let document = Html::parse_document(htmlresponse);
